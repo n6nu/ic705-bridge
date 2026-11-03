@@ -1,10 +1,15 @@
 # IC-705 Bridge
 
 WiFi-attached **Icom IC-705** as a TCI / rigctld transceiver with RX and TX audio for
-WSJT-X — no USB cable. The bridge talks to the radio over its built-in WiFi/LAN, which
+**WS** — no USB cable. The bridge talks to the radio over its built-in WiFi/LAN, which
 keeps USB hash off the receive path.
 
 Part of the [N6NU SDR Bridges](https://bridges.n6nu.org) family.
+
+The WS suite — **WS**, **WS-MAP** and **EME65** — lives at
+<https://wsjt-x-improved.sourceforge.io>, which is where most of this work went.
+
+<sub>Also works with WSJT-X, QMAP and MAP65.</sub>
 
 ## Download
 
