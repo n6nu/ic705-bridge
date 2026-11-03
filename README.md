@@ -8,7 +8,17 @@ Part of the [N6NU SDR Bridges](https://bridges.n6nu.org) family.
 
 ## Download
 
-Windows installer: see the [latest release](https://github.com/n6nu/ic705-bridge/releases/latest).
+Current build (V3, close to release):
+**[ic705-bridge-3.1.3-setup.exe](https://bridges.n6nu.org/beta/ic705-bridge-3.1.3-setup.exe)**
+
+Take this one rather than the GitHub release: the v2.1.x installers were
+packaged without the Microsoft Visual C++ runtime, so on a clean Windows
+machine they start and close again immediately. This build carries the runtime
+with it. It also stops the Settings dialog writing its own fallbacks over this
+app's defaults -- on a fresh install, opening Settings and clicking OK used to
+turn CAT and TCI off and move the CAT port, none of which you asked it to do.
+
+Older releases: the [releases page](https://github.com/n6nu/ic705-bridge/releases).
 
 ## Setup
 
